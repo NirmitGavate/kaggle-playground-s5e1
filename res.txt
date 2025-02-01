@@ -1,0 +1,17 @@
+on training data:
+    0.053491407919352876 #normal lgbm(tt split)
+    0.007936227900765286 #lgbm_params(tt split)
+    0.012531666114741607 #normal lgbm (timeseries split)
+    0.012378688419544186 #normal lgbm(gkfold split)
+    0.010964219234287984 #lgbm_params(gkfold split)
+
+on testing data:
+    gkfold(5 folds):
+                    training error         testing MAPE score
+            error - 0.01083559983928933    score-0.08837
+            error - 0.017264593534731105   score-0.07416(best)
+            error - 0.014118852023058267   score-0.08559
+            error - 0.012057861512978803   score- X
+            error - 0.023111241661346288   score- X
+
+
